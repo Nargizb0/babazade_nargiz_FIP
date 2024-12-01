@@ -1,0 +1,718 @@
+  
+body {
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+}
+ 
+a {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+ 
+input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+ 
+.cr-red {
+    color: #9a2018;
+}
+
+#desktop-outline {
+  outline: 20px solid #333;
+  max-width: 1180px;
+  margin: 20px auto 20px auto;
+  border-radius: 10px;
+  font-size: 16px;
+  display: grid;
+}
+
+.line-seperator {
+  margin-top: 20px;
+  border-top: solid 3px #cf6666;
+  padding-top: 20px;
+}
+.cr-grey {
+  color: #e1e1e1;
+}
+
+ 
+ /* Desktop */
+ #desk-main-header {
+  align-items: center;
+}
+
+#desk-main-nav-logo {
+  border-right: grey solid 3px;
+  padding-right: 50px
+}
+
+
+
+
+
+ 
+
+/* DESKTOP SPA PAGE */
+
+/* Hero Image */
+
+
+#desk-spa-hero {
+    background: url(../images/desk-spa-main.jpg) no-repeat;
+    height: 450px;
+  }
+
+
+/* 2. --spa hero-- */
+
+#desk-spa-hero {
+  background-image: url(../images/desk-spa-main.jpg);
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+#desk-hero-info {
+  padding-top: 45px;
+}
+
+#desk-hero-info p {
+  margin-bottom: 20px;
+}
+ #desk-main-nav ul {
+    list-style: none;
+   margin: 0;
+    border-left: 2px solid #626262;
+    padding: 4px 0px 4px 69px;
+    margin-top: 31px; 
+  }
+  
+  #desk-main-nav ul li {
+    display: inline;
+  }
+  
+  #desk-main-nav ul li:nth-of-type(even) {
+    margin: 0 16px;
+  }
+  
+  #desk-main-nav ul li a {
+    display: inline;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+  }
+  
+  #desk-logo {
+  padding-top: 35px;
+    max-width: 382px;
+  }
+  
+  .flex-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 67px;
+  }
+
+  #main-nav ul li a:hover {
+    color: #9a2018;
+    border-bottom: 1px solid #9a2018;
+  }
+ 
+#main-nav ul li {
+    border-bottom: 1px solid #efefef;
+}
+ 
+#main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+}
+ 
+#main-nav ul li:last-child {
+    margin-bottom: 10px;
+}
+
+
+  .book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.book-now:hover {
+  background-color: rgb(196, 28, 28);
+}
+
+#book-now-hero {
+  height: 70px;
+}
+#hero-heading-box {
+  align-self: end;
+}
+
+.hero-img-h2, .hero-img-h3 {
+  background: #fff;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.hero-img-h2 span,  .hero-img-h3 span {
+  color: #9a2018;
+  font-size: 12px;
+}
+
+.line-separator {
+  margin-top: 20px;
+  border-top: solid 3px #CF6666;
+  padding-top: 20px;
+}
+
+#hero-summary p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+  /* Registered Massage Therapy */
+  
+  #desk-spa-nav {
+    padding-top: 24px;
+  }
+  
+  #desk-spa-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  #desk-spa-nav ul li {
+    margin-right: 16px;
+    display: inline;
+  }
+  
+  
+  #desk-spa-nav ul li a {
+   color: inherit;
+   padding: 5px;
+  }
+  
+  #desk-spa-nav ul li a.selected {
+  border-bottom: #9a2018 solid 5px;
+  }
+  
+  #desk-spa-con img{
+    padding-left: 15px;
+    margin-top: 12px;
+  }
+  
+  #desk-spa-description ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 24px;
+  }
+  
+  #desk-spa-description li {
+    padding: 8px 0;
+    border-bottom: 1px solid #9a2018;
+    font-size: 16px;
+  } 
+  
+  #desk-button-con {
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #desk-button-con a {
+    padding: 12px 28px;
+    background: #9a2018;
+    color: #fff;
+    border: none;
+    transition: all 200ms ease-in;
+    /* width: 150px; */
+    /* display: block; */
+    margin-bottom: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  #desk-spa-con h3 {
+    margin: 8px 0;
+    /* padding-left: 15px; */
+  }
+
+
+/* 6. Footer */
+
+#desk-footer {
+  background-image: url(../images/desk_footer.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  height: 450px;
+  margin-top: 50px;
+}
+
+#desk-footer-top {
+  display: flex;
+}
+
+#desk-footer-info {
+  align-self: last baseline;
+}
+
+#desk-footer-nav {
+  align-self: last center;
+}
+
+#desk-footer-nav ul li a, #desk-footer-nav ul li summary {
+  color: white;
+}
+
+#desk-footer-info h3 {
+  font-weight: normal;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 0px;
+}
+
+#desk-footer-info p {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+#desk-footer-nav {
+  display: flex;
+  height: 105px;
+}
+
+#desk-footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#desk-footer-nav li a {
+  display: block;
+  padding: 10px 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#desk-footer-links {
+  display: flex;
+}
+
+#desk-footer-links div {
+  margin-right: 20px;
+}
+
+#desk-footer-book-now {
+  align-self: last center;
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  background-color: #9a2018;
+  padding: 40px 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+#desk-footer-legal p {
+  padding-top: 60px;
+  font-size: 10px;
+  text-align: center;
+}
+
+/* 7. ---Contact--- */
+ 
+#contact-hero-con {
+  background: url(../images/desk-contact-hero.jpg);
+  height: 450px;
+  background-size: cover;
+}
+
+#contact-hero-heading-box {
+  align-self: end;
+}
+
+#contact-hero-text {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+#contact-hero-address p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+#contact-hero-address {
+  margin-bottom: 30px;
+}
+
+#contact-hero-address h3 {
+  margin-bottom: 25px;
+}
+
+#contact-hero-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+align-self: flex-start;
+}
+
+#contact-hero-form input, textarea { /* formating the form */
+  padding: 22px;
+  border: 2px solid #d6d6d6;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font: inherit;
+  width: auto;
+}
+
+#contact-hero-form textarea {
+  height: 250px;
+}
+
+#contact-hero-form input[type="submit"] {
+  padding: 12px 28px;
+  background: #9a2018;
+  color: #fff;
+  border: none;
+  /* transition: all 200ms ease-in; */
+  width: 150px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+#submit-button {
+  width: 380px;
+  height: 100px;
+}
+#thankyou {
+  color: #fff;
+  text-align: center;
+}
+
+#send {
+  color: #fff;
+  margin-left: 30px;
+}
+
+#contact-hero-form input[type="submit"]:hover {
+  background-color: #626262;
+  border-radius: 0;
+  width: 380px;
+  animation: buttonhover 2s ease-in-out normal none;
+}
+button {
+  padding: 12px 28px;
+  border-radius: 5px;
+  background: #9a2018;
+  color: #fff;
+  border: none;
+  /*transition: all 200ms ease-in;*/
+  width: 150px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+button:after {
+  content: "Send";
+  color: #fff;
+}
+
+button:hover {
+  background-color: #626262;
+  border-radius: 0;
+  width: 380px;
+  animation: buttonhover 2s ease-in-out 1 normal none;
+}
+
+button:active:after {
+  content: "Thank You!";
+}
+
+button:active {
+  background-color: #ea7a02;
+}
+#contact-hero-form input[type="checkbox"] {
+  width: 20px;
+}
+
+#contact-hero-form input[type="checkbox"]:checked + p::after {
+  content: "😇";
+  margin-left: 30px;
+  font-size: 11px;
+  margin-top: -45px;
+}
+
+#checkbox-text {
+  font-size: 14px;
+  margin-top: -45px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+
+@keyframes buttonhover {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+  }
+
+  10% {
+    transform: rotate(8deg);
+  }
+
+  20%,
+  40%,
+  60% {
+    transform: rotate(-10deg);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: rotate(10deg);
+  }
+
+  80% {
+    transform: rotate(-8deg);
+  }
+
+  90% {
+    transform: rotate(8deg);
+  }
+}
+/* 8. ---Footer--- */
+ 
+#footer-hero {
+  background-image: url(../images/desk_footer.jpg);
+   background-repeat: no-repeat;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+  margin-top: 30px;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+#footer-privacy .line-seperator {
+  margin-top: 0px;
+}
+
+#footer-contact-info h3 {
+  font-size: 23px;
+}
+
+#footer-contact-info p {
+  margin-bottom: 20px;
+  line-height: 18px;
+  font-size: 11px;
+}
+
+
+
+
+
+/*11. Spa Page CSS*/
+
+#spa-hero {
+  background: url(../images/desk-spa-main.jpg) no-repeat;
+  height: 450px;
+}
+#spa-hero-heading-box {
+  align-self: end;
+}
+
+#spa-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#spa-feature-hero {
+  background: url(../images/desk-spafeature_v2.jpg) no-repeat;
+  height: 450px;
+}
+#spa-feature-hero-heading-box {
+  align-self: end;
+}
+
+#spa-feature-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+
+.spa-img-left-con h2 {
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.spa-img-left-con p {
+  font-size: 11px;
+  margin-bottom: 40px;
+  line-height: 20px;
+}
+
+.spa-img-left {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+#spa-policy-hero {
+  background: url(../images/desk-spapolicy-main.jpg) no-repeat;
+  height: 450px;
+}
+#spa-policy-hero-heading-box {
+  align-self: end;
+}
+
+#spa-policy-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+
+#spa-unforeseen-hero {
+  background: url(../images/desk-unforseen.jpg) no-repeat;
+  height: 450px;
+}
+#spa-unforeseen-hero-heading-box {
+  align-self: end;
+}
+
+#spa-unforeseen-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+
+#spa-ontario-hero {
+  background: url(../images/ontariospa-main.jpg) no-repeat;
+  height: 450px;
+}
+#spa-ontario-hero-heading-box {
+  align-self: end;
+}
+
+#spa-ontario-hero-summary p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 18px;
+}
+
+#spa-ontario-hero-summary h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.spa-product-img-left-con p {
+  font-size: 11px;
+  margin-bottom: 65px;
+  line-height: 20px;
+}
+
+.spa-product-img-left {
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+#spa-faq-con {
+  background-color: #f4f4f4;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+#spa-faq-con h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#spa-faq-con h2 span {
+  font-size: 16px;
+}
+
+.faq-items summary {
+  background-color: #e8e7e7;
+  padding: 16px;
+  font-size: 16px;
+}
+
+#faq-text-con1 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con4 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con5 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con6 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#faq-text-con7 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con8 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con9 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con10 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con11 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con12 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
