@@ -1,993 +1,993 @@
 
 
 #mobile-outline {
-    outline: 20px solid #333;
-    max-width: 412px;
-    margin: 20px auto 20px auto;
-    border-radius: 10px;
+  outline: 20px solid #333;
+  max-width: 412px;
+  margin: 20px auto 20px auto;
+  border-radius: 10px;
 } 
- 
+
 body {
-    color: #626262;
-    font-family: 'Sanchez', 'Times New Roman', serif;
+  color: #626262;
+  font-family: 'Sanchez', 'Times New Roman', serif;
 }
- 
+
 a {
-    text-decoration: none;
-    transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
 }
- 
+
 input, textarea {
-    display: block;
-    margin: 0;
-    padding: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
- 
+
 .cr-red {
-    color: #9a2018;
+  color: #9a2018;
 }
 
 .line-seperator {
-  margin-top: 20px;
-  border-top: solid 3px #cf6666;
-  padding-top: 20px;
+margin-top: 20px;
+border-top: solid 3px #cf6666;
+padding-top: 20px;
 }
 .cr-grey {
-  color: #e1e1e1;
+color: #e1e1e1;
 }
- 
+
 /* 2. ---Main Nav--- */
- 
+
 #main-nav label img { /* This is a decendant selector */
-    width: 20px;
-    height: 20px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    transition: all .5s ease;
-    cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  transition: all .5s ease;
+  cursor: pointer;
 }
- 
+
 #main-nav input, #burger-con {
-    display: none;
+  display: none;
 }
- 
+
 #main-nav input:checked ~ #burger-con {   /*   ~ sibling selector   */
-    display: block;
+  display: block;
 }
- 
+
 #main-nav input:checked ~ label img {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
- 
+
 #main-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
- 
+
 #main-nav ul li a {
-    display: block;
-    padding: 10px 0;
-    text-align: center;
-    color: #626262;
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  color: #626262;
 }
 
 #main-nav ul li a:hover {
-    color: #9a2018;
-    border-bottom: 1px solid #9a2018;
-  }
- 
+  color: #9a2018;
+  border-bottom: 1px solid #9a2018;
+}
+
 #main-nav ul li {
-    border-bottom: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
 }
- 
+
 #main-nav ul li:first-child {
-    border-top: 1px solid #efefef;
+  border-top: 1px solid #efefef;
 }
- 
+
 #main-nav ul li:last-child {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
- 
+
 #sub-menu-activities {
-    margin-top: -30px;
-  }
+  margin-top: -30px;
+}
 
-  #sub-menu-details {
-    margin-top: 15px;
-  }
+#sub-menu-details {
+  margin-top: 15px;
+}
 
-  #sub-menu-spring {
-    width: 250px;
-    margin: 0 auto;
-  }
+#sub-menu-spring {
+  width: 250px;
+  margin: 0 auto;
+}
 
-  #sub-menu-summer {
-    width: 250px;
-    margin: 0 auto;
-  }
-  #sub-menu-fall {
-    width: 250px;
-    margin: 0 auto;
-  }
-  #sub-menu-winter {
-    width: 250px;
-    margin: 0 auto;
-  }
+#sub-menu-summer {
+  width: 250px;
+  margin: 0 auto;
+}
+#sub-menu-fall {
+  width: 250px;
+  margin: 0 auto;
+}
+#sub-menu-winter {
+  width: 250px;
+  margin: 0 auto;
+}
 /* End of Main Nav */
- 
+
 #logo {
-    margin-bottom: 20px;
-    max-width: 382px;
+  margin-bottom: 20px;
+  max-width: 382px;
 }
- 
 
 
- 
+
+
 /* 3. ---Main Hero Image--- */
- 
+
 #hero {
-    background: url(../images/hero-main.jpg) no-repeat;
-    height: 200px;
+  background: url(../images/hero-main.jpg) no-repeat;
+  height: 200px;
 }
- 
+
 .book-now {
-    background-color: #9a2018;
-    color: #fff;
-    font-size: 16px;
-    transition: background-color 500ms linear;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-style: italic;
-    transition: all 0.3s ease;
-    cursor: pointer;
+  background-color: #9a2018;
+  color: #fff;
+  font-size: 16px;
+  transition: background-color 500ms linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
- 
+
 .book-now:hover {
-    background-color: rgb(196, 28, 28);
+  background-color: rgb(196, 28, 28);
 }
- 
+
 #book-now-hero {
-    height: 67px;
+  height: 67px;
 }
- 
+
 #hero-heading-box {
-    align-self: flex-end;
+  align-self: flex-end;
 }
- 
+
 .hero-img-h2,
 .hero-img-h3 {
-    background: #fff;
-    padding: 10px 15px;
-    font-size: 14px;
+  background: #fff;
+  padding: 10px 15px;
+  font-size: 14px;
 }
- 
+
 .hero-img-h2 span, 
 .hero-img-h3 span {
-    color: #9a2018;
-    font-size: 12px;
+  color: #9a2018;
+  font-size: 12px;
 }
- 
+
 .line-separator {
-    margin-top: 20px;
-    border-top: solid 3px #CF6666;
-    padding-top: 20px;
+  margin-top: 20px;
+  border-top: solid 3px #CF6666;
+  padding-top: 20px;
 }
- 
+
 #hero-summary p {
-    font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 20px;
 }
- 
+
 /* 4. ---Main Hero Image Contact--- */
- 
+
 .fas {
-    font-size: 42px;
-    color: #9a2018;
-    margin: 0 auto;
-    float: left;
+  font-size: 42px;
+  color: #9a2018;
+  margin: 0 auto;
+  float: left;
 }
- 
+
 .fa-mobile-alt {
-    margin-right: 10px;
-    margin-left: 3px;
-    margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 3px;
+  margin-bottom: 20px;
 }
- 
+
 .fa-map-marker-alt {
-    margin-right: 10px;
+  margin-right: 10px;
 }
- 
+
 #contact {
-    font-size: 11px;
-    background-color: #efefef;
-    padding-top: 30px;
-    padding-bottom: 30px;
+  font-size: 11px;
+  background-color: #efefef;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
- 
+
 /* 5. ---Why Choose Us--- */
- 
- 
+
+
 #why-choose-us-nav {
-    padding-top: 20px;
+  padding-top: 20px;
 }
- 
+
 #why-choose-us-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 #why-choose-us-nav ul li {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
- 
+
 #why-choose-us-nav ul li a {
-   color: inherit;
-   padding: 5px;
+ color: inherit;
+ padding: 5px;
 }
- 
+
 #why-choose-us-nav ul li a.selected {  /* signposting - red line, that tells us where we are in the page */
-    border-left: #9a2018 solid 5px;
+  border-left: #9a2018 solid 5px;
 }
-  
+
 #why-choose-us-hero-con {
-   background: url(../images/why-choose-us-hero.jpg) no-repeat;
-   height: 195px;
+ background: url(../images/why-choose-us-hero.jpg) no-repeat;
+ height: 195px;
 }
- 
+
 #why-choose-us-heading-box {
-    align-self: end;
+  align-self: end;
 }
- 
+
 .why-choose-us-image {
-    float: left;
-    margin-right: 20px;
-    margin-top: 30px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 30px;
 }
- 
+
 .why-choose-us-image-con h2 {
-    font-size: 14px;
-    margin-bottom: 20px;
-    margin-top: 30px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
- 
+
 .why-choose-us-image-con p {
-    font-size: 12px;
-    margin-bottom: 20px;
-    line-height: 20px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  line-height: 20px;
 }
- 
+
 .why-choose-us-image-con a {
-    color: #707070;
-    font-size: 12px;
+  color: #707070;
+  font-size: 12px;
 }
- 
+
 #why-choose-us-bottom-nav {
-    background-color: #CF6666;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+  background-color: #CF6666;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
- 
+
 #why-choose-us-bottom-nav ol {
-    list-style-type: none;
-    margin: 0 0 0 20px;
-    padding: 0;
+  list-style-type: none;
+  margin: 0 0 0 20px;
+  padding: 0;
 }
- 
+
 #why-choose-us-bottom-nav ol li {
-    display: inline;
+  display: inline;
 }
- 
+
 #why-choose-us-bottom-nav ol li a {
-    padding: 5px;
-    color: #fff;
+  padding: 5px;
+  color: #fff;
 }
- 
- 
+
+
 /* 6. ---About & FAQ--- */
- 
+
 #about-hero-con {
-    background: url(../images/about-us-hero.jpg) no-repeat;
-    height: 195px;
+  background: url(../images/about-us-hero.jpg) no-repeat;
+  height: 195px;
 }
- 
+
 #about-hero-heading-box {
-    align-self: end;
+  align-self: end;
 }
- 
+
 #about-us-text {
-    padding-bottom: 60px;
+  padding-bottom: 60px;
 }
- 
+
 #about-us-text p {
-    font-size: 14px;
-    margin-bottom: 20px;
-    line-height: 22px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 22px;
 }
- 
+
 #about-us-text-column2 {
-    font-style: italic;
+  font-style: italic;
 }
- 
+
 #faq-con {
-    background-color: #f4f4f4;
-    padding-top: 35px;
-    padding-bottom: 30px;
+  background-color: #f4f4f4;
+  padding-top: 35px;
+  padding-bottom: 30px;
 }
- 
+
 #faq-con h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
- 
+
 #faq-con h2 span {
-    color: #9a2018;
-    font-size: 16px;
+  color: #9a2018;
+  font-size: 16px;
 }
- 
+
 .faq-items {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
- 
+
 .faq-items h3 {
-    background: #e8e7e7;
-    padding: 16px;
-    font-size: 16px;
+  background: #e8e7e7;
+  padding: 16px;
+  font-size: 16px;
 }
- 
+
 .faq-items ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
- 
+
 .faq-items li {
-    padding: 8px 0;
-    border-bottom: 1px solid #9a2018;
+  padding: 8px 0;
+  border-bottom: 1px solid #9a2018;
 }   
- 
+
 .faq-items a {
-    color: inherit;
-    font-size: 13px;
+  color: inherit;
+  font-size: 13px;
 }
- 
+
 #faq-text-con {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
- 
+
 /* 7. ---Contact--- */
- 
+
 #contact-hero-con {
-    background: url(../images/contact-hero.jpg);
-    height: 195px;
-    background-size: cover;
+  background: url(../images/contact-hero.jpg);
+  height: 195px;
+  background-size: cover;
 }
- 
+
 #contact-hero-heading-box {
-    align-self: end;
+  align-self: end;
 }
- 
+
 #contact-hero-text {
-    margin-top: 15px;
-    margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
- 
+
 #contact-hero-address p {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 22px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 22px;
 }
- 
+
 #contact-hero-address {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
- 
+
 #contact-hero-address h3 {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
- 
+
 #contact-hero-form form {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+align-self: flex-start;
 }
- 
+
 #contact-hero-form input,
 #contact-hero-form textarea {
-  padding: 22px;
-  border: 2px solid #d6d6d6;
-  background-color: #f7f7f7;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  font: inherit;
-  width: auto;
+padding: 22px;
+border: 2px solid #d6d6d6;
+background-color: #f7f7f7;
+border-radius: 5px;
+margin-bottom: 30px;
+font: inherit;
+width: auto;
 }
- 
+
 #contact-hero-form textarea {
-    height: 250px;
+  height: 250px;
 }
- 
+
 #contact-hero-form input[type="submit"] {
-    padding: 12px 28px;
-    background: #9a2018;
-    color: #fff;
-    border: none;
-    /* transition: all 200ms ease-in; */
-    width: 150px;
-    align-self: flex-end;
-    cursor: pointer;
+  padding: 12px 28px;
+  background: #9a2018;
+  color: #fff;
+  border: none;
+  /* transition: all 200ms ease-in; */
+  width: 150px;
+  align-self: flex-end;
+  cursor: pointer;
 }
 
 #submit-button {
-    width: 380px;
-    height: 100px;
-  }
-  #thankyou {
-    color: #fff;
-    text-align: center;
-  }
- 
-  #send {
-    color: #fff;
-    margin-left: 30px;
-  }
+  width: 380px;
+  height: 100px;
+}
+#thankyou {
+  color: #fff;
+  text-align: center;
+}
 
-  #contact-hero-form input[type="submit"]:hover {
-    background-color: #626262;
-    border-radius: 0;
-    width: 380px;
-    animation: buttonhover 2s ease-in-out normal none;
-  }
-  button {
-    padding: 12px 28px;
-    border-radius: 5px;
-    background: #9a2018;
-    color: #fff;
-    border: none;
-    /*transition: all 200ms ease-in;*/
-    width: 150px;
-    align-self: flex-end;
-    cursor: pointer;
-  }
-  button:after {
-    content: "Send";
-    color: #fff;
-  }
+#send {
+  color: #fff;
+  margin-left: 30px;
+}
 
-  button:hover {
-    background-color: #626262;
-    border-radius: 0;
-    width: 380px;
-    animation: buttonhover 2s ease-in-out 1 normal none;
-  }
-
-  button:active:after {
-    content: "Thank You!";
-  }
-
-  button:active {
-    background-color: #4caf50;
-  }
-  /* Style the button when the form is valid and ready to be submitted */
-form:valid button {
-  background-color: #4caf50;
+#contact-hero-form input[type="submit"]:hover {
+  background-color: #626262;
+  border-radius: 0;
+  width: 380px;
+  animation: buttonhover 2s ease-in-out normal none;
+}
+button {
+  padding: 12px 28px;
+  border-radius: 5px;
+  background: #9a2018;
+  color: #fff;
+  border: none;
+  /*transition: all 200ms ease-in;*/
+  width: 150px;
+  align-self: flex-end;
   cursor: pointer;
 }
-  #contact-hero-form input[type="checkbox"] {
-    width: 20px;
+button:after {
+  content: "Send";
+  color: #fff;
+}
+
+button:hover {
+  background-color: #626262;
+  border-radius: 0;
+  width: 380px;
+  animation: buttonhover 2s ease-in-out 1 normal none;
+}
+
+button:active:after {
+  content: "Thank You!";
+}
+
+button:active {
+  background-color: #4caf50;
+}
+/* Style the button when the form is valid and ready to be submitted */
+form:valid button {
+background-color: #4caf50;
+cursor: pointer;
+}
+#contact-hero-form input[type="checkbox"] {
+  width: 20px;
+}
+
+#contact-hero-form input[type="checkbox"]:checked + p::after {
+  content: "😇";
+  margin-left: 30px;
+  font-size: 11px;
+  margin-top: -45px;
+}
+
+#checkbox-text {
+  font-size: 14px;
+  margin-top: -45px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+
+@keyframes buttonhover {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
   }
 
-  #contact-hero-form input[type="checkbox"]:checked + p::after {
-    content: "😇";
-    margin-left: 30px;
-    font-size: 11px;
-    margin-top: -45px;
+  10% {
+    transform: rotate(8deg);
   }
 
-  #checkbox-text {
-    font-size: 14px;
-    margin-top: -45px;
-    margin-left: 20px;
-    margin-bottom: 30px;
+  20%,
+  40%,
+  60% {
+    transform: rotate(-10deg);
   }
-  
-  
-  @keyframes buttonhover {
-    0%,
-    100% {
-      transform: rotate(0deg);
-      transform-origin: 50% 50%;
-    }
-  
-    10% {
-      transform: rotate(8deg);
-    }
-  
-    20%,
-    40%,
-    60% {
-      transform: rotate(-10deg);
-    }
-  
-    30%,
-    50%,
-    70% {
-      transform: rotate(10deg);
-    }
-  
-    80% {
-      transform: rotate(-8deg);
-    }
-  
-    90% {
-      transform: rotate(8deg);
-    }
+
+  30%,
+  50%,
+  70% {
+    transform: rotate(10deg);
   }
+
+  80% {
+    transform: rotate(-8deg);
+  }
+
+  90% {
+    transform: rotate(8deg);
+  }
+}
 
 /* 8. ---Footer--- */
- 
+
 #footer-hero {
-    background-image: url(../images/footer.jpg);
-     background-repeat: no-repeat;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 40px;
-    padding-bottom: 80px;
+  background-image: url(../images/footer.jpg);
+   background-repeat: no-repeat;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 40px;
+  padding-bottom: 80px;
 }
- 
+
 #footer-hero h3 {
-    margin-top: 30px;
-    font-size: 28px;
-    margin-bottom: 16px;
+  margin-top: 30px;
+  font-size: 28px;
+  margin-bottom: 16px;
 }
- 
+
 #footer-privacy .line-seperator {
-    margin-top: 0px;
+  margin-top: 0px;
 }
- 
+
 #footer-contact-info h3 {
-    font-size: 23px;
+  font-size: 23px;
 }
- 
+
 #footer-contact-info p {
-    margin-bottom: 20px;
-    line-height: 18px;
-    font-size: 11px;
+  margin-bottom: 20px;
+  line-height: 18px;
+  font-size: 11px;
 }
 
 /* Activities page CSS */
 
 #hero-activities {
-    background: url(../images/mob-fall-hero-main.jpg) no-repeat;
-    height: 200px;
-  }
-  .mob-algonguinpark-img {
-    margin-top: 10px;
-  }
+  background: url(../images/mob-fall-hero-main.jpg) no-repeat;
+  height: 200px;
+}
+.mob-algonguinpark-img {
+  margin-top: 10px;
+}
 
-  #hero-activities-summary p {
-    font-size: 14px;
-    margin-bottom: 20px;
-    line-height: 22px;
-  }
+#hero-activities-summary p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
 
-  #hero-activities-summary a {
-    color: #707070;
-    font-size: 12px;
-  }
-  #hero-activities-heading-box {
-    align-self: flex-end;
-  }
-  #four-season-con {
-    background: url(../images/mob-fourseason.jpg) no-repeat;
-    height: 195px;
-  }
-  #four-season-heading-box {
-    align-self: end;
-  }
-  .four-season-img {
-    margin-right: 20px;
-    margin-top: 30px;
-  }
-  .four-season-img-con h2 {
-    font-size: 14px;
-    margin-bottom: 10px;
-    margin-top: 5px;
-  }
+#hero-activities-summary a {
+  color: #707070;
+  font-size: 12px;
+}
+#hero-activities-heading-box {
+  align-self: flex-end;
+}
+#four-season-con {
+  background: url(../images/mob-fourseason.jpg) no-repeat;
+  height: 195px;
+}
+#four-season-heading-box {
+  align-self: end;
+}
+.four-season-img {
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.four-season-img-con h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
 
-  .four-season-img-con p {
-    font-size: 12px;
-    margin-bottom: 20px;
-    line-height: 20px;
-  }
-  
-  .four-season-img-con a {
-    color: #707070;
-    font-size: 12px;
-  }
-  
-  #four-season-bottom-nav ol li a {
-    padding: 5px;
-    color: #fff;
-  }
-  
-  #four-season-bottom-nav {
-    background-color: #cf6666;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
-  
-  #four-season-bottom-nav ol {
-    list-style-type: none;
-    margin: 0 0 0 20px;
-    padding: 0;
-  }
-  
-  #four-season-bottom-nav ol li {
-    display: inline;
-  }
-  
-  #activities-faq-con {
-    background-color: #f4f4f4;
-    padding-top: 35px;
-    padding-bottom: 30px;
-  }
-  
-  #activities-faq-con h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  #activities-faq-con h2 span {
-    font-size: 16px;
-  }
-  
-  #faq-text-con6 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-  }
-  #faq-text-con7 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-  }
-  #faq-text-con8 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-  }
-  #faq-text-con9 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-  }
-  #faq-text-con10 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-  }
-  
-  /* fall Page */
-  #hero-fall {
-    background: url(../images/mob-fall-hero-main.jpg) no-repeat;
-    height: 200px;
-  }
-  #fall-hero-heading-box {
-    align-self: end;
-  }
-  
-  #fall-hero-summary p {
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 22px;
-  }
-  
-  #wildlife-summary p {
-    font-size: 12px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 22px;
-  }
-  
-  #wildlife-summary h2 {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  #wildlife-summary h3 {
-    font-size: 13px;
-    margin-bottom: 10px;
-  }
- 
-  
- 
-  
-  #motor-summary {
-    margin-bottom: 20px;
-  }
-  
-  #motor-summary p {
-    font-size: 12px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 22px;
-  }
-  
-  #motor-summary h2 {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  .motor-img-left {
-    float: left;
-    margin-right: 20px;
-    margin-top: 5px;
-  }
-  
-  .motor-img-left-con h2 {
-    font-size: 14px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-  }
-  
-  .motor-img-left-con p {
-    font-size: 12px;
-    margin-bottom: 20px;
-    line-height: 20px;
-  }
-  
-  .motor-img-right {
-    float: right;
-    margin-left: 20px;
-    margin-top: 5px;
-  }
-  
-  .motor-img-right-con h2 {
-    font-size: 14px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-  }
-  
-  .motor-img-right-con p {
-    font-size: 12px;
-    margin-bottom: 40px;
-    line-height: 20px;
-  }
-  
-  .paddle-img-left {
-    float: left;
-    margin-right: 20px;
-    margin-top: 30px;
-  }
-  
-  .paddle-img-left-con h2 {
-    font-size: 14px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-  }
-  
-  .word-right {
-    float: right;
-    margin-right: 20px;
-    font-size: 14px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-  }
-  
-  #pickleball-hero {
-    background: url(../images/mob-badminton.jpg) no-repeat;
-    height: 200px;
-  }
-  
-  #pickleball-hero-heading-box {
-    align-self: end;
-  }
-  
-  #pickleball-summary p {
-    font-size: 12px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 22px;
-  }
-  
-  #pickleball-summary h2 {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  #horseriding-hero {
-    background: url(../images/mob-horseriding.jpg) no-repeat;
-    height: 200px;
-  }
-  
-  #horseriding-hero-heading-box {
-    align-self: end;
-  }
-  
-  #horseriding-summary p {
-    font-size: 12px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 22px;
-  }
-  
-  #horseriding-summary h2 {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  #horseriding-summary p a {
-    color: #707070;
-    font-size: 12px;
-  }
-  
-  #hiking-hero {
-    background: url(../images/mob-hiking-main.jpg) no-repeat;
-    height: 200px;
-  }
-  
-  #hiking-hero-heading-box {
-    align-self: end;
-  }
-  
+.four-season-img-con p {
+  font-size: 12px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.four-season-img-con a {
+  color: #707070;
+  font-size: 12px;
+}
+
+#four-season-bottom-nav ol li a {
+  padding: 5px;
+  color: #fff;
+}
+
+#four-season-bottom-nav {
+  background-color: #cf6666;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#four-season-bottom-nav ol {
+  list-style-type: none;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+#four-season-bottom-nav ol li {
+  display: inline;
+}
+
+#activities-faq-con {
+  background-color: #f4f4f4;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+#activities-faq-con h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#activities-faq-con h2 span {
+  font-size: 16px;
+}
+
+#faq-text-con6 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con7 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con8 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con9 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con10 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+/* fall Page */
+#hero-fall {
+  background: url(../images/mob-fall-hero-main.jpg) no-repeat;
+  height: 200px;
+}
+#fall-hero-heading-box {
+  align-self: end;
+}
+
+#fall-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#wildlife-summary p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#wildlife-summary h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#wildlife-summary h3 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
 
 
-  /*11. Spa Page CSS*/
+
+
+#motor-summary {
+  margin-bottom: 20px;
+}
+
+#motor-summary p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#motor-summary h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.motor-img-left {
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.motor-img-left-con h2 {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.motor-img-left-con p {
+  font-size: 12px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.motor-img-right {
+  float: right;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.motor-img-right-con h2 {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.motor-img-right-con p {
+  font-size: 12px;
+  margin-bottom: 40px;
+  line-height: 20px;
+}
+
+.paddle-img-left {
+  float: left;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.paddle-img-left-con h2 {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.word-right {
+  float: right;
+  margin-right: 20px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#pickleball-hero {
+  background: url(../images/mob-badminton.jpg) no-repeat;
+  height: 200px;
+}
+
+#pickleball-hero-heading-box {
+  align-self: end;
+}
+
+#pickleball-summary p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#pickleball-summary h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#horseriding-hero {
+  background: url(../images/mob-horseriding.jpg) no-repeat;
+  height: 200px;
+}
+
+#horseriding-hero-heading-box {
+  align-self: end;
+}
+
+#horseriding-summary p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#horseriding-summary h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#horseriding-summary p a {
+  color: #707070;
+  font-size: 12px;
+}
+
+#hiking-hero {
+  background: url(../images/mob-hiking-main.jpg) no-repeat;
+  height: 200px;
+}
+
+#hiking-hero-heading-box {
+  align-self: end;
+}
+
+
+
+/*11. Spa Page CSS*/
 
 #spa-hero {
-    background: url(../images/mob-spa-main.jpg) no-repeat;
-    height: 200px;
-  }
-  #spa-hero-heading-box {
-    align-self: end;
-  }
-  
-  #spa-hero-summary p {
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 22px;
-  }
-  
-  #spa-feature-hero {
-    background: url(../images/mob-spafeature_v2.jpg) no-repeat;
-    height: 200px;
-  }
-  #spa-feature-hero-heading-box {
-    align-self: end;
-  }
-  
-  #spa-feature-hero-summary p {
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    line-height: 22px;
-  }
-  
-  .spa-img-left-con h2 {
-    font-size: 12px;
-    margin-bottom: 5px;
-    margin-top: 30px;
-  }
-  
-  .spa-img-left-con p {
-    font-size: 11px;
-    margin-bottom: 40px;
-    line-height: 20px;
-  }
-  
-  .spa-img-left {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 30px;
-  }
-  #spa-policy-hero {
-    background: url(../images/mob-spapolicy-main.jpg) no-repeat;
-    height: 200px;
-  }
-  #spa-policy-hero-heading-box {
-    align-self: end;
-  }
-  
-  #spa-policy-hero-summary p {
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    line-height: 22px;
-  }
-  
-  #spa-unforeseen-hero {
-    background: url(../images/mob-unforseen.jpg) no-repeat;
-    height: 200px;
-  }
-  #spa-unforeseen-hero-heading-box {
-    align-self: end;
-  }
-  
-  #spa-unforeseen-hero-summary p {
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    line-height: 22px;
-  }
-  
-  #spa-ontario-hero {
-    background: url(../images/ontariospa-main.jpg) no-repeat;
-    height: 200px;
-  }
-  #spa-ontario-hero-heading-box {
-    align-self: end;
-  }
-  
-  #spa-ontario-hero-summary p {
-    font-size: 12px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    line-height: 18px;
-  }
-  
-  #spa-ontario-hero-summary h2 {
-    font-size: 16px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-  }
-  .spa-product-img-left-con p {
-    font-size: 11px;
-    margin-bottom: 65px;
-    line-height: 20px;
-  }
-  
-  .spa-product-img-left {
-    float: left;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 60px;
-  }
-  
-  #spa-faq-con {
-    background-color: #f4f4f4;
-    padding-top: 35px;
-    padding-bottom: 30px;
-  }
-  
-  #spa-faq-con h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  #spa-faq-con h2 span {
-    font-size: 16px;
-  }
-  
-  .faq-items summary {
-    background-color: #e8e7e7;
-    padding: 16px;
-    font-size: 16px;
-  }
-  
-  #faq-text-con1 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-  }
-  #faq-text-con2 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-  }
-  #faq-text-con3 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-  }
-  #faq-text-con4 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-  }
-  #faq-text-con5 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-  }
-  
+  background: url(../images/mob-spa-main.jpg) no-repeat;
+  height: 200px;
+}
+#spa-hero-heading-box {
+  align-self: end;
+}
+
+#spa-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#spa-feature-hero {
+  background: url(../images/mob-spafeature_v2.jpg) no-repeat;
+  height: 200px;
+}
+#spa-feature-hero-heading-box {
+  align-self: end;
+}
+
+#spa-feature-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+
+.spa-img-left-con h2 {
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.spa-img-left-con p {
+  font-size: 11px;
+  margin-bottom: 40px;
+  line-height: 20px;
+}
+
+.spa-img-left {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+#spa-policy-hero {
+  background: url(../images/mob-spapolicy-main.jpg) no-repeat;
+  height: 200px;
+}
+#spa-policy-hero-heading-box {
+  align-self: end;
+}
+
+#spa-policy-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+
+#spa-unforeseen-hero {
+  background: url(../images/mob-unforseen.jpg) no-repeat;
+  height: 200px;
+}
+#spa-unforeseen-hero-heading-box {
+  align-self: end;
+}
+
+#spa-unforeseen-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+
+#spa-ontario-hero {
+  background: url(../images/ontariospa-main.jpg) no-repeat;
+  height: 200px;
+}
+#spa-ontario-hero-heading-box {
+  align-self: end;
+}
+
+#spa-ontario-hero-summary p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 18px;
+}
+
+#spa-ontario-hero-summary h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.spa-product-img-left-con p {
+  font-size: 11px;
+  margin-bottom: 65px;
+  line-height: 20px;
+}
+
+.spa-product-img-left {
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+#spa-faq-con {
+  background-color: #f4f4f4;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+#spa-faq-con h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#spa-faq-con h2 span {
+  font-size: 16px;
+}
+
+.faq-items summary {
+  background-color: #e8e7e7;
+  padding: 16px;
+  font-size: 16px;
+}
+
+#faq-text-con1 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con4 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con5 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
 
 
 
