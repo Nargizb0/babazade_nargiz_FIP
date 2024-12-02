@@ -58,9 +58,9 @@ input, textarea {
    #desk-main-nav ul {
       list-style: none;
      margin: 0;
-      border-left: 2px solid #626262;
+      
       padding: 4px 0px 4px 69px;
-      margin-top: 31px; 
+      margin: 20px; 
     }
     
     #desk-main-nav ul li {
@@ -119,6 +119,7 @@ input, textarea {
       font-style: italic;
       transition: all 0.3s ease;
       cursor: pointer;
+      
   }
   
   .book-now:hover {
@@ -127,7 +128,9 @@ input, textarea {
   
   #book-now-hero {
     height: 70px;
+    
   }
+  
   #hero-heading-box {
     align-self: end;
   }
@@ -490,28 +493,7 @@ button:active {
     font-size: 16px;
   } 
   
-  #desk-button-con {
-    display: flex;
-    flex-direction: column;
-    border-top: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #desk-button-con a {
-    padding: 12px 28px;
-    background: #9a2018;
-    color: #fff;
-    border: none;
-    transition: all 200ms ease-in;
-    /* width: 150px; */
-    /* display: block; */
-    margin-bottom: 16px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-size: 14px;
-    text-align: center;
-  }
+
   
   #desk-spa-con h3 {
     margin: 8px 0;
@@ -562,7 +544,7 @@ button:active {
 }
 
 .spa-img-left {
-  float: left;
+  float: center;
   margin-right: 20px;
   margin-bottom: 30px;
 }
@@ -636,7 +618,7 @@ button:active {
 }
 
 #spa-faq-con h2 {
-  font-size: 24px;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
@@ -648,6 +630,7 @@ button:active {
   background-color: #e8e7e7;
   padding: 16px;
   font-size: 16px;
+  margin-top: 16px;
 }
 
 #faq-text-con1 {
@@ -667,35 +650,6 @@ button:active {
   margin-bottom: 20px;
 }
 #faq-text-con5 {
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-#faq-text-con6 {
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-
-#faq-text-con7 {
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-#faq-text-con8 {
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-#faq-text-con9 {
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-#faq-text-con10 {
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-#faq-text-con11 {
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-#faq-text-con12 {
   margin-top: 0px;
   margin-bottom: 20px;
 }
